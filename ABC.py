@@ -1,4 +1,6 @@
-num=int(input("enter youir number: "))
-print(num)
-name=str(input("Enter your name:  "))
-print(name)
+num=1
+while(num<100):
+    if(num%2==1):
+        print(num)
+    num+=1
+  
